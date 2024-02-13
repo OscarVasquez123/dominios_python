@@ -34,6 +34,18 @@ class cupo():
         self.letra = letra
         
         
+
+class empleado():
+    
+    def __init__(self, codigo,nombre_empleado):
+        self.codigo = codigo
+        self.nombre_empleado = nombre_empleado
+                
+
+
+
+
+
 class pago():
     
     def __init__(self,
@@ -54,7 +66,8 @@ class pago():
         self.carro = carro
         self.cupo = cupo 
         self.empleado = empleado   
-                
+        
+
         
     
     
